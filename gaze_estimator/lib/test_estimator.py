@@ -15,9 +15,9 @@ import torch
 import torch.nn as nn
 from torchvision import transforms
 
-from data_loader import DataLoader
-from gaze_estimator_network import GazeEstimatorNetwork
-from sub_estimator import SubEstimator
+from gaze_estimator.lib.data_loader import DataLoader
+from gaze_estimator.lib.gaze_estimator_network import GazeEstimatorNetwork
+from gaze_estimator.lib.sub_estimator import SubEstimator
 
 class TestEstimator(SubEstimator):
 	def __init__(self, cfg):

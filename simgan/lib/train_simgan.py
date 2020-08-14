@@ -15,10 +15,10 @@ import torch
 import torch.nn as nn
 import cv2
 
-from sub_simgan import SubSimGAN
-from show_images import *
-from image_pool import ImagePool
-from data_loader import DataLoader
+from simgan.lib.sub_simgan import SubSimGAN
+from simgan.lib.show_images import *
+from simgan.lib.image_pool import ImagePool
+from simgan.lib.data_loader import DataLoader
 
 class TrainSimGAN(SubSimGAN):
 	def __init__(self, cfg):

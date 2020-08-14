@@ -18,8 +18,8 @@ import torch.utils.data as Data
 
 from torchvision import transforms
 
-from data_loader import DataLoader
-from gaze_estimator_network import GazeEstimatorNetwork
+from gaze_estimator.lib.data_loader import DataLoader
+from gaze_estimator.lib.gaze_estimator_network import GazeEstimatorNetwork
 
 class SubEstimator:
 	def __init__(self, cfg):

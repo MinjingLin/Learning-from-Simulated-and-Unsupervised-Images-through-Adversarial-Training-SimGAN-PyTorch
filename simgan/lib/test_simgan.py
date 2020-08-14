@@ -7,7 +7,7 @@ import torch.nn as nn
 import torchvision
 
 
-from sub_simgan import SubSimGAN
+from simgan.lib.sub_simgan import SubSimGAN
 
 class TestSimGAN(SubSimGAN):
 	def __init__(self, cfg):

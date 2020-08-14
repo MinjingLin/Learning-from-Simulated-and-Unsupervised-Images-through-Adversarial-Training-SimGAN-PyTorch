@@ -19,8 +19,8 @@ import torch.autograd as autograd
 from torchvision import transforms
 
 import torch.nn.functional as F
-from simgan_network import Refiner, Discriminator
-from data_loader import DataLoader
+from simgan.lib.simgan_network import Refiner, Discriminator
+from simgan.lib.data_loader import DataLoader
 
 class SubSimGAN:
 	''' 
